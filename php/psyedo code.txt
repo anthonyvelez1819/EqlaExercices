@@ -1,0 +1,9 @@
+
+Début 
+ENTIER years
+ENTIER AGE
+AFFICHER "quel est votre anné de naisance" 
+LIre année 
+age = 2023-année
+AFFICHER "vous avez",age
+FIN

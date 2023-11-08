@@ -1,0 +1,10 @@
+div {
+    border: 1px solid red;
+}
+.important1{
+    font-weight: bold;
+}
+.important2{
+    color: green;
+    font-style: italic;
+}

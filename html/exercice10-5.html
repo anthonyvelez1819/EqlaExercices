@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<header>
+
+</header>
+<main id="maincontent">
+    <h1>Partie 1-simple formulaire</h1>
+    <form action="http://zamboyle.synology.me:2727/forms/exercices/exercice10-1.php" method="post">
+        <label for="nom">
+            Nom
+        </label>
+        <input type="text" id="nom" name="nom" aria-required="true" required>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" aria-required="true" required>
+        <label for="email">Adresse email</label>
+        <input type="email" id="email" name="email" aria-required="true" required>
+        <label for="age">Äge</label>
+        <input type="number" id="age" name="age" >
+        <br>
+        <label for="commentaire">Qui est-tu?</label><br>
+        <textarea id="commentaire" name="commentaire" aria-required="true" required rows="10" cols="50"></textarea><br>
+        <br>
+        <label for="newsletter">reçevoir info par email</label><br>
+        <input type="checkbox" id="newsletter" name="newsletter">j'accepte<br>
+        <input type="submit" value="envoyer">
+    </form>
+    <section>
+        <h2>Titre 2</h2>
+        <p>Paragraphe.</p>
+    </section>
+</main>
+<footer>
+    <p>(c) 2023 - BlindCode</p>
+</footer>
+</body>
+</html>
