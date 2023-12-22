@@ -1,4 +1,4 @@
-<?php
+-<?php
 echo "entrez un nombre pour calculer la factoriel: ";
 $number=fgets(STDIN);
 $number=trim($number);
