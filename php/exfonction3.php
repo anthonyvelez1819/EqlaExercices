@@ -2,7 +2,7 @@
 function DisplayGuessGame()
 {
     $compteur = 0;
-    $chance = rand(1, 2);
+    $chance = rand(1, 10);
 
     do {
         echo "devinez le chiffre entre 1 et 10 : ";
