@@ -1,0 +1,19 @@
+DROP DATABASE IF EXISTS exercice27;
+CREATE DATABASE exercice27 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+       USE Exercice27;
+CREATE TABLE Equipe
+(
+    idEquipe INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    NomClub CHAR(30) NOT NULL,
+    Localité CHAR(30) NOT NULL,
+    Division TINYINT UNSIGNED NOT NULL
+);
+CREATE TABLE joueur
+(
+    idJoueur INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+nom CHAR(30) NOT NULL,
+    prenom CHAR(30) NOT NULL,
+    DateNaissance CHAR(30) NOT NULL,
+    idEquipe INT UNSIGNED NOT NULL,
+    FOREIGN KEY (idEquipe) REFERENCES equipe(idEquipe)
+);
