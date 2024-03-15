@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-echo "combien d'élève ill y a ?  ";
+echo "combien d'élève il y a ?  ";
 $nbrEleve=fgets(STDIN);
 $nbrEleve=trim($nbrEleve);
 
