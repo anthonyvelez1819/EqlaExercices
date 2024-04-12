@@ -1,12 +1,14 @@
 <?php
 
-battery{
+class MobilePhone
+{
+    use tarea;
 private float $height;
 private float $width;
 private int $autonomy;
 private int $chargingTime;
-private int $battery;
-private bool $isOn;
+protected int $battery;
+protected bool $isOn;
 public function __construct(float $_height, float $_width, int $_autonomy, int $_chargingTime, int $_battery)
 {
     $this->height = $_height;
@@ -92,7 +94,7 @@ public function CallNumber(string $phoneNumber)
         echo "le téléphone est éteint ";
     }
 }
-    private function Start()
+    protected function Start()
     {
         if ($this->battery > 0 && $this->isOn == false){
             $this->battery--;
