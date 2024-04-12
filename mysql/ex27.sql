@@ -17,3 +17,6 @@ nom CHAR(30) NOT NULL,
     idEquipe INT UNSIGNED NOT NULL,
     FOREIGN KEY (idEquipe) REFERENCES equipe(idEquipe)
 );
+
+
+
